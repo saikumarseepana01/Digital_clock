@@ -28,7 +28,7 @@ This project is a simple theme-based clock with a toggle button for switching be
 - The theme toggle button adds or removes a `dark` class from the `html` element to switch styles.
 - The `scale` function is used to map time values to rotation angles.
 
-## Live Demo
+## Live Demo https://saikumarseepana01.github.io/Digital_clock/
 Simply open `index.html` in any modern browser to see the clock in action.
 
 ## License
