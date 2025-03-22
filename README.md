@@ -1,78 +1,35 @@
-**Theme Clock**
+# Theme Clock
 
-**Overview**
+This project is a simple theme-based clock with a toggle button for switching between light and dark modes. The clock displays the current time and date dynamically.
 
-This project is a theme-switching analog and digital clock built with HTML, CSS, and JavaScript. It displays the current time and date while allowing users to toggle between light mode and dark mode.
+## Features
+- Analog clock with hour, minute, and second hands
+- Digital time and date display
+- Light and dark mode toggle
+- Smooth animations and transitions
 
-Features
-✅ Analog Clock with hour, minute, and second hands
-✅ Digital Clock displaying current time in 12-hour format
-✅ Date Display with day and month
-✅ Dark Mode Toggle to switch themes
-✅ Smooth Animations for a better UI experience
+## Technologies Used
+- **HTML**: Structure of the clock and UI elements
+- **CSS**: Styling, animations, and theme switching
+- **JavaScript**: Dynamic time updates and event handling
 
-**Technologies Used**
-HTML – Structure of the webpage
-CSS – Styling and theme transitions
-JavaScript – Functionality to update time and toggle themes
-File StructureTheme Clock
-Overview
-This project is a theme-switching analog and digital clock built with HTML, CSS, and JavaScript. It displays the current time and date while allowing users to toggle between light mode and dark mode.
+## Files Included
+- `index.html`: Main HTML file containing the clock structure
+- `style.css`: CSS file for styling the clock and implementing themes
+- `script.js`: JavaScript file for handling time updates and theme toggling
 
-**Features**
-✅ Analog Clock with hour, minute, and second hands
-✅ Digital Clock displaying current time in 12-hour format
-✅ Date Display with day and month
-✅ Dark Mode Toggle to switch themes
-✅ Smooth Animations for a better UI experience
+## Setup Instructions
+1. Download or clone the repository.
+2. Open `index.html` in a web browser.
+3. Click the "Dark mode" button to switch themes.
 
-**Technologies Used**
-HTML – Structure of the webpage
-CSS – Styling and theme transitions
-JavaScript – Functionality to update time and toggle themes
-File Structure
-bash
-**Copy code**
-📂 Theme Clock
-│── index.html    # Main HTML file
-│── style.css     # Styling and themes
-│── script.js     # Clock logic and theme toggle
-How to Run
-Download or clone this repository:
-bash
-Copy code
-git clone https://github.com/saikumarseepana01/calculator.git
-Open index.html in a web browser.
-Click the "Dark Mode" button to toggle themes.
-Screenshots
-![image](https://github.com/user-attachments/assets/aaa47301-d233-4dbc-8bb8-e637754f2cb6)
+## How It Works
+- The JavaScript script updates the clock hands and digital display every second.
+- The theme toggle button adds or removes a `dark` class from the `html` element to switch styles.
+- The `scale` function is used to map time values to rotation angles.
 
+## Live Demo
+Simply open `index.html` in any modern browser to see the clock in action.
 
-**Credits**
-Inspired by modern clock UI designs.
-JavaScript time calculation logic referenced from StackOverflow.
-License
-This project is open-source and free to use. 🚀
-
-**bash**
-Copy code
-📂 Theme Clock
-│── index.html    # Main HTML file
-│── style.css     # Styling and themes
-│── script.js     # Clock logic and theme toggle
-**How to Run**
-Download or clone this repository:
-bash
-Copy code
-git clone https://github.com/saikumarseepana01/calculator.git
-Open index.html in a web browser.
-Click the "Dark Mode" button to toggle themes.
-Screenshots
-![image](https://github.com/user-attachments/assets/aaa47301-d233-4dbc-8bb8-e637754f2cb6)
-
-
-**Credits**
-Inspired by modern clock UI designs.
-JavaScript time calculation logic referenced from StackOverflow.
-License
-This project is open-source and free to use. 🚀
+## License
+This project is open-source and free to use.
