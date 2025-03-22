@@ -1,5 +1,7 @@
 **Theme Clock**
+
 **Overview**
+
 This project is a theme-switching analog and digital clock built with HTML, CSS, and JavaScript. It displays the current time and date while allowing users to toggle between light mode and dark mode.
 
 Features
